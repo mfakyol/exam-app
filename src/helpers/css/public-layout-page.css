@@ -1,0 +1,7 @@
+.public-layout-page-container {
+    background: url(../img/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+    height :900px;
+}

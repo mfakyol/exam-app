@@ -1,13 +1,19 @@
 import React from "react";
-import "../helpers/App.css";
+import "../helpers/css/App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import ExampleComponent from "./ExampleComponent";
+import Home from "./public_components/Home";
+import About from "./public_components/About";
+import InstructorHome from "./private_components/instructor_components/InstructorHome";
+import StudentHome from "./private_components/student_components/StudentHome";
 
 function App(props) {
   return (
     <div className="App">
       <Router>
-        <Route to="/" exact component={ExampleComponent}></Route>
+        <Route path="/" exact component={Home}></Route>
+        <Route path="/about" exact component={About}></Route>
+        <Route path="/instructor" exact component={InstructorHome}></Route>
+        <Route path="/student" exact component={StudentHome}></Route>
       </Router>
     </div>
   );
