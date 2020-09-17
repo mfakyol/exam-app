@@ -1,7 +1,7 @@
 import React from "react";
 import { Redirect } from "react-router-dom";
-import PublicNavbar from "./Navbar/PublicNavbar";
-import PublicFooter from "./Footer/PublicFooter";
+import PublicNavbar from "./navbar/PublicNavbar";
+import PublicFooter from "./footer/PublicFooter";
 import "../../helpers/css/public-layout-page.css";
 
 function PublicLayoutPage(WrappedComponent) {

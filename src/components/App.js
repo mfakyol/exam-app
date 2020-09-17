@@ -1,7 +1,7 @@
 import React from "react";
 import "../helpers/css/App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./public_components/Home";
+import Home from "./public_components/home/Home";
 import About from "./public_components/About";
 import InstructorHome from "./private_components/instructor_components/InstructorHome";
 import StudentHome from "./private_components/student_components/StudentHome";
