@@ -1,0 +1,71 @@
+.signup-container {
+    text-align: center;
+    height: 100px;
+
+}
+
+.signup-header {
+    color: var(--dark);
+    text-align: center;
+    text-shadow: 2px 2px  rgba(0, 0, 0, .2);   
+    font-size: 25px;
+    font-weight: 600;
+}
+.signup-header  span{
+    text-align: start;
+    display: inline-block;
+    width: 370px;
+    padding-bottom: 10px;
+}
+
+.signup-body {
+    display: inline-block;
+    padding: 30px 0;
+    border-top: 2px solid var(--primary);
+    border-bottom: 2px solid var(--primary);
+}
+
+.signup-input {
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    height: 30px;
+    text-indent: 5px;
+    width: 250px;
+
+}
+
+.signup-button {
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    outline: none;
+    background-color: var(--primary);
+    color: var(--light);
+    height: 30px;
+    padding: 0 20px;
+    margin-left: 30px;
+    transition: all .3s ease;
+    
+}
+.signup-button:hover {
+    color: var(--primary);
+    background-color: var(--light);
+}
+
+.signup-redirect {
+    margin-top: 10px;
+    text-align: start;
+    display: block;
+    color: var(--dark);
+
+}
+
+.signup-redirect-link {
+    color: var(--success);
+    transition: all .3s ease;
+}
+.signup-redirect-link:hover {
+    color: var(--light);
+    text-shadow: 1px 1px rgba(0, 0, 0, .4);
+    text-decoration: underline;
+}
